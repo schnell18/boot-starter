@@ -1,0 +1,13 @@
+*               text=auto
+*.yml           text
+*.java          text
+*.groovy        text
+*.kt            text
+*.py            text
+*.xml           text
+*.vm            text
+*.properties    text
+*.txt           text
+*.bat           text eol=crlf
+*.sh            text eol=lf
+*.jpg           -text

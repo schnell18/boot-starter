@@ -1,0 +1,6 @@
+influxdb:
+  url: http://localhost:8086
+  username: user
+  password: ~
+  database: mydb
+  retentionPolicy: autogen

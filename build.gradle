@@ -1,0 +1,20 @@
+group 'org.home.hone'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.openjdk.jmh:jmh-core:1.11.3'
+    compile 'org.openjdk.jmh:jmh-generator-annprocess:1.11.3'
+    compile 'org.influxdb:influxdb-java:2.7'
+    compile 'com.github.miwurster:spring-data-influxdb:1.5'
+    compile 'com.google.guava:guava:22.0'
+    compile 'org.springframework.boot:spring-boot-starter-web:1.5.6.RELEASE'
+    testCompile 'junit:junit:4.12'
+}
